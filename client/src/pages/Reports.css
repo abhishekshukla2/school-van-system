@@ -1,0 +1,234 @@
+.reports-container{
+
+    padding:90px 30px 30px;
+
+    background:#f8fafc;
+
+    min-height:100vh;
+
+}
+
+
+
+
+
+.page-header{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+
+    margin-bottom:30px;
+
+}
+
+
+
+.page-header h1{
+
+    margin:0;
+
+    color:#0f172a;
+
+    font-size:30px;
+
+}
+
+
+
+.page-header p{
+
+    color:#64748b;
+
+}
+
+
+
+
+
+
+
+
+.report-cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:20px;
+
+}
+
+
+
+
+
+
+
+.report-card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+
+    text-align:center;
+
+}
+
+
+
+.report-card h3{
+
+    color:#475569;
+
+}
+
+
+
+.report-card h2{
+
+    color:#2563eb;
+
+    font-size:35px;
+
+    margin:10px 0;
+
+}
+
+
+
+
+
+
+
+
+.van-report{
+
+    background:white;
+
+    margin-top:35px;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+
+}
+
+
+
+
+
+.van-report h2{
+
+    color:#0f172a;
+
+}
+
+
+
+
+
+
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    margin-top:20px;
+
+}
+
+
+
+
+
+th{
+
+    background:#1e293b;
+
+    color:white;
+
+    padding:15px;
+
+    text-align:left;
+
+}
+
+
+
+
+
+td{
+
+    padding:15px;
+
+    border-bottom:1px solid #e2e8f0;
+
+}
+
+
+
+
+
+tr:hover{
+
+    background:#f8fafc;
+
+}
+
+
+
+
+
+
+
+
+@media(max-width:1000px){
+
+
+.report-cards{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+
+}
+
+
+
+
+
+
+
+@media(max-width:600px){
+
+
+.reports-container{
+
+padding:80px 15px 20px;
+
+}
+
+
+
+.report-cards{
+
+grid-template-columns:1fr;
+
+}
+
+
+}

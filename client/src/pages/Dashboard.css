@@ -1,0 +1,287 @@
+.dashboard-page {
+
+    min-height: 100vh;
+
+    background: #f4f7fb;
+
+    font-family: Arial, sans-serif;
+
+}
+
+
+
+.dashboard-content {
+
+    padding: 30px;
+
+}
+
+
+
+
+.dashboard-content > h1 {
+
+    text-align: center;
+
+    color: #1e3a8a;
+
+    font-size: 32px;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.dashboard-content > h2 {
+
+    text-align: center;
+
+    color: #555;
+
+    margin-bottom: 35px;
+
+}
+
+
+
+
+.cards {
+
+
+    display: grid;
+
+
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(220px, 1fr)
+    );
+
+
+    gap: 25px;
+
+
+}
+
+
+
+
+
+.card {
+
+
+    background: white;
+
+
+    padding: 25px;
+
+
+    border-radius: 15px;
+
+
+    text-align: center;
+
+
+    box-shadow: 0 8px 20px rgba(
+        0,
+        0,
+        0,
+        0.1
+    );
+
+
+    transition: 0.3s;
+
+
+}
+
+
+
+
+
+.card:hover {
+
+
+    transform: translateY(-5px);
+
+
+}
+
+
+
+
+
+.card h3 {
+
+
+    color: #555;
+
+
+    font-size: 18px;
+
+
+    margin-bottom: 15px;
+
+
+}
+
+
+
+
+
+.card p {
+
+
+    font-size: 42px;
+
+
+    font-weight: bold;
+
+
+    color: #2563eb;
+
+
+    margin: 10px 0;
+
+
+}
+
+
+
+
+
+.card span {
+
+
+    color: #777;
+
+
+    font-size: 15px;
+
+
+}
+
+
+
+
+
+.welcome-box {
+
+
+    margin-top: 40px;
+
+
+    background: white;
+
+
+    padding: 25px;
+
+
+    border-radius: 15px;
+
+
+    box-shadow: 0 8px 20px rgba(
+        0,
+        0,
+        0,
+        0.1
+    );
+
+
+}
+
+
+
+
+
+.welcome-box h3 {
+
+
+    color: #1e3a8a;
+
+
+    font-size: 24px;
+
+
+    margin-bottom: 15px;
+
+
+}
+
+
+
+
+
+.welcome-box p {
+
+
+    color: #555;
+
+
+    font-size: 18px;
+
+
+}
+
+
+
+
+
+.welcome-box b {
+
+
+    color: #2563eb;
+
+
+}
+
+
+
+
+
+@media(max-width:600px){
+
+
+    .dashboard-content {
+
+
+        padding: 15px;
+
+
+    }
+
+
+
+
+    .dashboard-content > h1 {
+
+
+        font-size: 24px;
+
+
+    }
+
+
+
+
+    .dashboard-content > h2 {
+
+
+        font-size: 20px;
+
+
+    }
+
+
+
+
+    .card p {
+
+
+        font-size: 32px;
+
+
+    }
+
+
+}

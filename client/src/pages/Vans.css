@@ -1,0 +1,318 @@
+.vans-container{
+
+    padding:30px;
+
+    min-height:100vh;
+
+    background:#f5f7fb;
+
+}
+
+
+
+.page-header{
+
+    margin-bottom:30px;
+
+}
+
+
+
+.page-header h1{
+
+    font-size:32px;
+
+    color:#1e293b;
+
+    margin-bottom:8px;
+
+}
+
+
+
+.page-header p{
+
+    color:#64748b;
+
+    font-size:16px;
+
+}
+
+
+
+
+
+/* FORM CARD */
+
+.van-form-card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+
+    margin-bottom:30px;
+
+}
+
+
+
+
+
+.van-form{
+
+    display:grid;
+
+    grid-template-columns:repeat(5,1fr);
+
+    gap:15px;
+
+}
+
+
+
+
+
+.van-form input{
+
+    padding:12px;
+
+    border:1px solid #cbd5e1;
+
+    border-radius:8px;
+
+    font-size:15px;
+
+    outline:none;
+
+}
+
+
+
+.van-form input:focus{
+
+    border-color:#2563eb;
+
+}
+
+
+
+
+
+.van-form button{
+
+    background:#2563eb;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    padding:12px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+    font-weight:600;
+
+}
+
+
+
+.van-form button:hover{
+
+    background:#1d4ed8;
+
+}
+
+
+
+
+
+
+
+/* VAN CARDS */
+
+
+.van-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:25px;
+
+}
+
+
+
+
+
+.van-card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+
+    transition:0.3s;
+
+}
+
+
+
+.van-card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+
+
+
+
+.van-card h2{
+
+    color:#2563eb;
+
+    margin-bottom:15px;
+
+}
+
+
+
+
+
+.van-card p{
+
+    margin:10px 0;
+
+    color:#475569;
+
+    font-size:15px;
+
+}
+
+
+
+
+
+.van-card b{
+
+    color:#111827;
+
+}
+
+
+
+
+
+
+
+/* DELETE BUTTON */
+
+
+.delete-btn{
+
+    margin-top:15px;
+
+    width:100%;
+
+    padding:10px;
+
+    background:#dc2626;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+}
+
+
+
+.delete-btn:hover{
+
+    background:#b91c1c;
+
+}
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+
+@media(max-width:1100px){
+
+
+    .van-form{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+
+    .van-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+
+}
+
+
+
+
+
+@media(max-width:600px){
+
+
+    .vans-container{
+
+        padding:15px;
+
+    }
+
+
+    .page-header h1{
+
+        font-size:24px;
+
+    }
+
+
+
+    .van-form{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+
+    .van-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+}
