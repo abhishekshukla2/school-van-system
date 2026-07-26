@@ -3,7 +3,7 @@ import axios from "axios";
 
 const API = axios.create({
 
-    baseURL:"https://school-van-system.onrender.com/api",
+    baseURL:"https://school-van-system.onrender.com",
 
     withCredentials:true
 
